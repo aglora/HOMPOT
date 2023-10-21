@@ -9,6 +9,8 @@ Proyecto Fin de Grado en Ingeniería Electrónica, Robótica y Mecatrónica
 
 - Debido a la confidencialidad del proyecto me limito a aportar únicamente resultados visuales conceptuales, sin desvelar detalles sensibles del trabajo desarrollado.
 
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/lanz_ini.gif" width="800" />
+
 # PROPÓSITO DEL PROYECTO
 
 El propósito que se persigue es el de crear un sistema robótico capaz de cumplir las funciones básicas de vuelo de un ornitóptero, del cual tengamos total control y conocimiento, que sirva de base para el desarrollo de tareas
@@ -98,7 +100,7 @@ Controles disponibles:
 
 - Poner directamente la máxima y mínima velocidad del motor. Esto será útil cuando queramos alterar rápidamente la velocidad, remontar el vuelo o hacerlo bajar.
 - Parada sincronizada en posición concreta favorable a planeo
-- - Ajuste flaps cola trimado de vuelo
+- Ajuste flaps cola trimado de vuelo
 
 <div style="display: flex; flex-direction: row;">
   <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/stop.gif" width="400" />
@@ -107,6 +109,12 @@ Controles disponibles:
 
 - Detención de emmergencia por pérdida de comunicación
 - Cambio control manual - autónomo
+
+# PRUEBAS DE VUELO
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/lanzamiento.png" width="800" />
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/vuelo.png" width="800" />
 
 # AGRADECIMIENTOS
 

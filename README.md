@@ -42,9 +42,9 @@ de fábrica puede ser una buena línea de trabajo.
 En este apartado se propone el control actuando sobre el mando radiocontrol original, el cual será convenientemente adaptado, para transmitir por radiofrecuencia las órdenes necesarias para controlar al ornitóptero, tal y como lo haría un piloto. Para ello será necesario el uso de un microcontrolador en tierra que contenga el autopiloto donde se ejecute el programa encargado de generar las señales de control, además de cierta electrónica intermedia. Esto permitirá el aprovechamiento de todos los componentes de a bordo y del funcionamiento interno del producto.
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora1.jpg" width="250" />
-  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora2.jpg" width="250" />
-  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora3.jpg" width="450" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora1.jpg" width="200" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora2.jpg" width="200" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora3.jpg" width="350" />
 </div>
 
 # AGRADECIMIENTOS

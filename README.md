@@ -98,12 +98,12 @@ Controles disponibles:
 
 - Poner directamente la máxima y mínima velocidad del motor. Esto será útil cuando queramos alterar rápidamente la velocidad, remontar el vuelo o hacerlo bajar.
 - Parada sincronizada en posición concreta favorable a planeo
+- - Ajuste flaps cola trimado de vuelo
 
-<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/stop.gif" width="800" />
-
-- Ajuste flaps cola trimado de vuelo
-
-<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/cola_trim.gif" width="800" />
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/stop.gif" width="400" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/cola_trim.gif" width="400" />
+</div>
 
 - Detención de emmergencia por pérdida de comunicación
 - Cambio control manual - autónomo

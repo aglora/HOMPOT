@@ -46,7 +46,8 @@ En este apartado se propone el control actuando sobre el mando radiocontrol orig
   <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora2.jpg" width="220" />
   <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora3.jpg" width="360" />
 </div>
-<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/vueloRFAutopiloto.gif" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/auto_rf.gif" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/vuelo_Autopiloto_RF.png" width="800" />
 
 # AGRADECIMIENTOS
 José Ángel Acosta Rodríguez

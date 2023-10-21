@@ -130,6 +130,17 @@ Disponemos de telemetría de vuelo:
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/pruebaTelemetria.png" width="800" />
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="800" />
 
+(VÍDEO RECOPILACIÓN MOMENTOS DE VUELO)
+
+# LÍNEAS DE TRABAJO FUTURO Y EN DESARROLLO EN ACTUALIDAD (Finales 2023)
+
+- Control de rumbo y altura autónomos
+
+- Control de aterrizaje suave y posado
+
+- Integrar módulo GNSS y mejora de sensores actuales para disponer de un localización robusta del robot para hacer tareas autónomas de navegación.
+
+- Inclusión de mini-cámara
 
 # AGRADECIMIENTOS
 

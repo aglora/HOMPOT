@@ -50,5 +50,7 @@ En este apartado se propone el control actuando sobre el mando radiocontrol orig
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/vuelo_Autopiloto_RF.png" width="800" />
 
 # AGRADECIMIENTOS
+
 José Ángel Acosta Rodríguez
+
 Cristina Ruiz Páez

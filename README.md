@@ -20,6 +20,15 @@ El objetivo prioritario es la implementación de la parte hardware y software pa
 
 Deberemos hacer frente a una serie de retos importantes asociados a este tipo de plataformas. El modelado aerodinámico es complejo al ser altamente no estacionario y no lineal. La capacidad de carga es reducida debido a la limitación de la propulsión. Restricciones de peso: el sistema con todos los cambios no debe ser excesivamente pesado puesto que lastraría el rendimiento de vuelo de la estructura usada como chasis. La tendencia irá encaminada a lograr un vuelo limpio y una maniobra de aterrizaje suave.
 
+# MODELADO Y CONTROL
+
+El modelado y simulación de nuestro ornitóptero serán unas herramientas esenciales para comprender y predecir el comportamiento aproximado de vuelo en la práctica. Nos permitirá realizar pruebas virtuales exhaustivas, optimizar el diseño, evaluando diferentes técnicas de control y simulando condiciones extremas. Su principal uso será el de conocer cuáles serán los trimados de vuelo entorno a los que desarrollar los controladores y pruebas de vuelo. Al aprovechar estas técnicas, se puede reducir el tiempo y los recursos necesarios para el desarrollo de nuestro proyecto mecatrónico, mejorando su rendimiento y aumentando la confianza en su comportamiento antes de su despliegue en el mundo real.
+
+La herramienta elegida para hacer nuestros simuladores de vuelo ha sido SIMULINK y MATLAB.
+
+
+
+
 <div style="display: flex; flex-direction: row;">
 
 </div>

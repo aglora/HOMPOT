@@ -79,6 +79,34 @@ Componentes usados para la integración del sistema:
 
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/montaje.png" width="800" />
 
+# CONTROL MANUAL TELEOPERADO
+
+Tras el montaje hardware, lo primero que implementamos a nivel de software es un control manual, que incluya las funcionalidades básicas para la maniobrabilidad en vuelo y ciertas mejoras añadidas. Usaremos como superficie de control un mando clásico de XBOX. 
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/mando.png" width="800" />
+
+El objetivo de este apartado es mostrar las posibilidades de las que se ha dotado a nuestro robot aéreo para un control teleoperado que será necesario, en primer lugar, para verificar el correcto funcionamiento del sistema en el aire. Posteriormente con para la intervención en caso de emergencia o para la recopilación de datos de telemetría y el ajuste del modelo en simulación. Dichos datos también nos ayudarán a caracterizar e identificar puntos de trimado. Por todo ello, la creación de un buen control manual es de suma importancia para el progreso del modo autónomo. También se usará junto al mismo para colocar al ornitóptero en las condiciones iniciales previas a usarlo.
+
+Como se ha introducido, usaremos un mando de XBOX para el control por Wi-Fi del robot. Detectamos las pulsaciones y movimientos en botones y ejes repartidos por el mando y a partir de su interpretación y procesamiento enviamos por UDP las órdenes de control que recibirá el programa que estará ejecutándose a bordo en el microprocesador ESP. Para lograrlo, se ha desarrollado en ROS (Robot Operation System) un paquete para llevar a cabo el manejo del mando. 
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/esquema_com.png" width="800" />
+
+Controles disponibles: 
+- Funcionalidades básicas de incrementar y reducir la frecuencia de aleteo (variando la velocidad del motor) así como subir o bajar las superficies de la cola para realizar giros en rumbo son las primeras a incluir.
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/controles_basicos.png" width="800" />
+
+- Poner directamente la máxima y mínima velocidad del motor. Esto será útil cuando queramos alterar rápidamente la velocidad, remontar el vuelo o hacerlo bajar.
+- Parada sincronizada en posición concreta favorable a planeo
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/stop.gif" width="800" />
+
+- Ajuste flaps cola trimado de vuelo
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/cola_trim.gif" width="800" />
+
+- Detención de emmergencia por pérdida de comunicación
+- Cambio control manual - autónomo
 
 # AGRADECIMIENTOS
 

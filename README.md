@@ -63,7 +63,19 @@ Implementamos un nuevo sistema electrónico personalizado a bordo del robot, inc
 
 Diseño y la creación de un prototipo funcional, que posteriormente nos brindará la capacidad de establecer modos de funcionamiento tanto manuales como automáticos.
 
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/montaje.gif" width="800" />
 
+Componentes usados para la integración del sistema:
+
+- **Sensor de efecto Hall**: Medida de la frecuencia de aleteo
+- **Sensor barómetro BMP280**: Estimación de la altura
+- **IMU MPU6050**: Estimación de la orientación
+- **Servomotores**: Flaps de cola
+- **Placa ESC y motor BLDC**: Movimiento del mecanismo de las alas
+- **Placa WeMos D1 Mini Wi-Fi con microcontrolador ESP8266**: Placa principal con microcontrolador de a bordo
+- **Batería ion-Litio 2S 520mAh**: Alimentación del ornitóptero
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/montaje.png" width="800" />
 
 
 # AGRADECIMIENTOS

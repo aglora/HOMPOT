@@ -5,7 +5,7 @@ Proyecto Fin de Grado en Ingeniería Electrónica, Robótica y Mecatrónica
 
 - Este trabajo forma parte del desarrollo del proyecto HOMPOT de la Junta de Andalucía, dentro del marco PAIDI 2020, con financiación europea de fondos FEDER.
 
-- El objetivo del resumen que se ofrece es dar conocimiento del trabajo personal desarrollado durante meses.
+- El objetivo del breve resumen que se ofrece es dar conocimiento del trabajo personal desarrollado durante meses.
 
 - Debido a la confidencialidad del proyecto me limito a aportar únicamente resultados visuales conceptuales, sin desvelar detalles sensibles del trabajo desarrollado.
 
@@ -26,11 +26,25 @@ El modelado y simulación de nuestro ornitóptero serán unas herramientas esenc
 
 La herramienta elegida para hacer nuestros simuladores de vuelo ha sido SIMULINK y MATLAB.
 
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/modelado.png" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/graficas.png" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/animacion.png" width="800" />
 
+# AUTOPILOTO REMOTO POR RADIOFRECUENCIA
 
+La implementación del control remoto en nuestro robot aéreo es una primera opción a tener en cuenta al presentar una notoria gama de ventajas. La más inmediata es atendiendo al peso del pájaro robótico. Al trasladar parte del procesamiento y cálculo a un sistema centralizado en tierra, el robot no necesitaría de nueva electrónica extra que influya en el vuelo, debido al incremento de peso. A su vez, permitiría aumentar la capacidad de carga útil, aprovechándola para transporte de algún objeto involucrado en alguna tarea avanzada que pueda desarrollarse. 
+
+Otras virtudes de esta filosofía de trabajo serían un menor coste computacional a bordo y por tanto una menor complejidad, evitando la inclusión de nuevo hardware. Siguiendo en esta idea, también estaría asociado en consecuencia una disminución del consumo, lo cual se traduce en una mayor duración de la batería. Además, el hecho de tener una estación de procesamiento en tierra permite usar recursos que en aire no son posibles debido a tamaño y peso.
+
+En este sentido, el aprovechamiento y desarrollo sobre la comunicación a través de radiofrecuencia establecida
+de fábrica puede ser una buena línea de trabajo.
+
+En este apartado se propone el control actuando sobre el mando radiocontrol original, el cual será convenientemente adaptado, para transmitir por radiofrecuencia las órdenes necesarias para controlar al ornitóptero, tal y como lo haría un piloto. Para ello será necesario el uso de un microcontrolador en tierra que contenga el autopiloto donde se ejecute el programa encargado de generar las señales de control, además de cierta electrónica intermedia. Esto permitirá el aprovechamiento de todos los componentes de a bordo y del funcionamiento interno del producto.
 
 <div style="display: flex; flex-direction: row;">
-
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora1.jpg" width="250" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora2.jpg" width="250" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora3.jpg" width="450" />
 </div>
 
 # AGRADECIMIENTOS

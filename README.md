@@ -63,8 +63,10 @@ Implementamos un nuevo sistema electrónico personalizado a bordo del robot, inc
 
 Diseño y la creación de un prototipo funcional, que posteriormente nos brindará la capacidad de establecer modos de funcionamiento tanto manuales como automáticos.
 
-<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/montaje.gif" width="800" />
-
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/montaje.gif" width="600" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/3d.gif" width="200" />
+</div>
 Componentes usados para la integración del sistema:
 
 - **Sensor de efecto Hall**: Medida de la frecuencia de aleteo

@@ -110,11 +110,28 @@ Controles disponibles:
 - Detención de emmergencia por pérdida de comunicación
 - Cambio control manual - autónomo
 
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/concepto_cesped.png" width="800" />
+
 # PRUEBAS DE VUELO
 
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/lanzamiento.png" width="800" />
 
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/vuelo.png" width="800" />
+
+Disponemos de telemetría de vuelo:
+
+- Altura
+- Orientación
+- Frecuencia Aleteo
+- Ángulo de flaps de cola
+
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="300" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/pruebaAlt.png" width="300" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="300" />
+</div>
+
+
 
 # AGRADECIMIENTOS
 

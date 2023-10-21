@@ -9,7 +9,7 @@ Proyecto Fin de Grado en Ingeniería Electrónica, Robótica y Mecatrónica
 
 - Debido a la confidencialidad del proyecto me limito a aportar únicamente resultados visuales conceptuales, sin desvelar detalles sensibles del trabajo desarrollado.
 
-<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/lanz_ini.gif" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/tfg.jpg" width="800" />
 
 # PROPÓSITO DEL PROYECTO
 
@@ -21,6 +21,8 @@ Partiendo de la estructura aerodinámica previamente fabricada de un prototipo r
 El objetivo prioritario es la implementación de la parte hardware y software para volarlo con un control manual y automático propio, estableciendo un sistema de comunicaciones inalámbrico que permita el envío de comandos de control y la recepción de telemetría del vuelo. Esto último será muy importante para permitir un continuo avance en el proyecto.
 
 Deberemos hacer frente a una serie de retos importantes asociados a este tipo de plataformas. El modelado aerodinámico es complejo al ser altamente no estacionario y no lineal. La capacidad de carga es reducida debido a la limitación de la propulsión. Restricciones de peso: el sistema con todos los cambios no debe ser excesivamente pesado puesto que lastraría el rendimiento de vuelo de la estructura usada como chasis. La tendencia irá encaminada a lograr un vuelo limpio y una maniobra de aterrizaje suave.
+
+<img src="https://github.com/aglora/HOMPOT/blob/main/gifs/lanz_ini.gif" width="800" />
 
 # MODELADO Y CONTROL
 
@@ -110,7 +112,7 @@ Controles disponibles:
 - Detención de emmergencia por pérdida de comunicación
 - Cambio control manual - autónomo
 
-<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/concepto_cesped.png" width="800" />
+<img src="https://github.com/aglora/HOMPOT/blob/main/imgs/concepto_cesped.jpg" width="800" />
 
 # PRUEBAS DE VUELO
 

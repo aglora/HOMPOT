@@ -142,13 +142,15 @@ Disponemos de telemetría de vuelo:
 
 <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/mix-vuelos.gif" width="800" />
 
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo1.gif" width="400" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo2.gif" width="400" />
+</div>
+
+
 # AGRADECIMIENTOS
 
 José Ángel Acosta Rodríguez
 
 Cristina Ruiz Páez
 
-<div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo1.gif" width="400" />
-  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo2.gif" width="400" />
-</div>

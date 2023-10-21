@@ -5,7 +5,7 @@ Proyecto Fin de Grado en Ingeniería Electrónica, Robótica y Mecatrónica
 
 - Este trabajo forma parte del desarrollo del proyecto HOMPOT de la Junta de Andalucía, dentro del marco PAIDI 2020, con financiación europea de fondos FEDER.
 
-- El objetivo del breve resumen que se ofrece es dar conocimiento del trabajo personal desarrollado durante meses.
+- El objetivo del breve resumen que se ofrece es dar conocimiento de los aspectos más relevantes tratados durante meses, a modo de muestra de la capacidad de trabajo personal.
 
 - Debido a la confidencialidad del proyecto me limito a aportar únicamente resultados visuales conceptuales, sin desvelar detalles sensibles del trabajo desarrollado.
 
@@ -47,7 +47,24 @@ En este apartado se propone el control actuando sobre el mando radiocontrol orig
   <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/MONTAJE_mejora3.jpg" width="360" />
 </div>
 <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/auto_rf.gif" width="800" />
+
+Debido a las condiciones externas y vuelo realista las trayectorias seguidas han variado respecto de la ideal en un plano vertical esperada. En esto influye multitud de factores como: el lanzamiento inicial, la fuerza y
+dirección del viento existente, el desequilibrio en alas por asimetrías de fabricación y ajustes no del todo buenos. Sin embargo, en varios experimentos se han conseguido resultados bastante aceptables teniendo en
+cuenta que estamos en bucle abierto y no rechazamos todas esas perturbaciones comentadas.
+
 <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/vuelo_Autopiloto_RF.png" width="800" />
+
+Esta línea de trabajo existe un claro inconveniente: no hay disponemos de realimentación, lo que dificultaría el desarrollo de cualquier tarea autónoma que la requiera.
+Decidimos optar por un montaje propio del sistema, aprovechando al máximo los recursos disponibles, que permita cerrar el bucle directamente en el propio ornitóptero.
+
+# DISEÑO, PRUEBAS Y MONTAJE HARDWARE
+
+Implementamos un nuevo sistema electrónico personalizado a bordo del robot, incorporando nuevos sensores y aprovechando actuadores tras una profunda caracterización e ingeniería inversa. Esta estrategia nos permitirá reprogramarlo según nuestras preferencias y necesidades, para desarrollar y depurar diversos programas con funcionalidades distintas. 
+
+Diseño y la creación de un prototipo funcional, que posteriormente nos brindará la capacidad de establecer modos de funcionamiento tanto manuales como automáticos.
+
+
+
 
 # AGRADECIMIENTOS
 

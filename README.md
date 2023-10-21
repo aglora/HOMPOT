@@ -147,3 +147,8 @@ Disponemos de telemetría de vuelo:
 José Ángel Acosta Rodríguez
 
 Cristina Ruiz Páez
+
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo1.gif" width="400" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/gifs/demo2.gif" width="400" />
+</div>

@@ -126,11 +126,10 @@ Disponemos de telemetría de vuelo:
 - Ángulo de flaps de cola
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="300" />
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="500" />
   <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/pruebaAlt.png" width="300" />
-  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/saltosFrecSpeedMotor.png" width="300" />
 </div>
-
+  <img src="https://github.com/aglora/HOMPOT/blob/main/imgs/pruebaOri.png" width="800" />
 
 
 # AGRADECIMIENTOS
